@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+*{
+    padding: 10px;
+}
+
+body{
+    
+    background: gray;
+}
+
+main{
+    
+    max-width: 800px;
+    background: white;
+}
+
+main, header, section, article, footer, div{
+    
+    border: 1px solid black;
+}
+
+article img{
+    
+    width: 70%;
+    height: 80%;
+}
+
+article{
+    
+    display: grid;
+    
+    grid-template-columns:
+        "lfr lfr lfr";
+    
+    grid-gap: 10px;
+}
+
+article div{
+    
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+#nagyKep img{
+    
+    width: 100%;
+}
+
+section{
+    
+    display: grid;
+    
+    grid-template-columns: 50px auto ;
+}
